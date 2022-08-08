@@ -147,6 +147,10 @@
 
 /* DESTAQUES */
 #featured-container {
+    margin-bottom: 0.4em;
+}
+
+.title {
     font-size: 1.75em;
     margin-bottom: 0.4em;
     position: relative;
@@ -164,12 +168,21 @@
     margin-top: 2em;
 }
 
-#featured-images .col-mid-4 {
+#featured-images .col-md-4 {
     position: relative;
     cursor: pointer;
 }
 
-#featured-images .col-mid-4:hover > .banner-content {
+#featured-images .col-md-4:hover > .banner-content {
+    opacity: 0.8;
+}
+
+#featured-images .col-md-12 {
+    position: relative;
+    cursor: pointer;
+}
+
+#featured-images .col-md-12:hover > .banner-content {
     opacity: 0.8;
 }
 
@@ -181,6 +194,7 @@
     width: 100%;
     background-color: #fff;
     display: flex;
+    align-items: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
